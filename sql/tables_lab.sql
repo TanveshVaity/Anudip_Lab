@@ -1,4 +1,4 @@
-create database tableassignment
+create database tableassignment;
 
 use tablessignment;
 
