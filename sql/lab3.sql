@@ -96,8 +96,7 @@ mysql> select * from enrollment;
 
 -- Perform an INNER JOIN between student and enrollment to get full details of students along with their enrollment records
 mysql> select s.stud_id, s.first_name, s.last_name, e.enrollment_id, e.course_id, e.course_name from student s 
-    join enrollment e 
-    on s.stud_id = e.stud_id;
+    join enrollment e  on s.stud_id = e.stud_id;
 +---------+------------+-----------+---------------+-----------+-----------------------------+
 | stud_id | first_name | last_name | enrollment_id | course_id | course_name                 |
 +---------+------------+-----------+---------------+-----------+-----------------------------+
